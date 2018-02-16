@@ -244,7 +244,7 @@ p {
 
 .fh5co-main-nav {
   position: relative;
-  background: #fff;
+  background: #0f2909;
 }
 .fh5co-main-nav.fh5co-shadow {
   -webkit-box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.09);
@@ -258,7 +258,8 @@ p {
   line-height: 0;
 }
 .fh5co-main-nav .fh5co-menu-1 a {
-  padding: 35px 0;
+  padding: 20px 20px;
+  margin: 10px 0;
   margin-right: 30px;
   color: #ccc;
   text-transform: uppercase;
@@ -269,6 +270,7 @@ p {
   display: inline-block;
   zoom: 1;
   *display: inline;
+  border-radius: 25px;
 }
 .fh5co-main-nav .fh5co-menu-1 a:hover, .fh5co-main-nav .fh5co-menu-1 a:focus, .fh5co-main-nav .fh5co-menu-1 a:active {
   outline: none;
@@ -276,7 +278,8 @@ p {
 }
 .fh5co-main-nav .fh5co-menu-1 a.active {
   font-weight: 400;
-  color: #000;
+  color: #0f2909;
+  background: #fff;
 }
 .fh5co-main-nav .fh5co-menu-1 {
   width: 100%;
